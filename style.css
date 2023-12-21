@@ -1,0 +1,86 @@
+/*body{
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+   
+    
+}
+
+/*global*/
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+    color: white !important;
+    text-shadow: 1px 1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5); /* Ganti warna navbar sesuai kebutuhan dan sesuaikan nilai alpha */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Membalikkan warna ikon toogle agar terlihat di navbar yang transparan */
+}
+#services{
+    
+    background-color:  #F3F4F5 ;
+}
+#about{
+    background-color:#a2d9ff ;
+}
+#client{
+    background-color:#a2d9ff ;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 50px; /* Sesuaikan ukuran ikon WhatsApp sesuai keinginan Anda */
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-button:hover img {
+    transform: scale(1.1);
+}
+
+
+/*Mobile Version*/
+@media(max-width : 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        color: black !important;
+    }
+    .nav-link{
+        color: black !important;
+    }  
+}
+
+
+/*Desktop Version*/
+@media (min-width: 992px){
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #f94ca4;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    }
+
+
+}
